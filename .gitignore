@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+*.env
+
+# Django-specific files
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+*.log
+
+# Secrets and environment variables
+.env
+config/settings/local.py
+
+# Migrations (optional, but usually good to keep)
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/__pycache__/
+*/migrations/*.py, !*/migrations/__init__.py
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Pip dependency management
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js files (if using frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Pytest cache
+.pytest_cache/
