@@ -10,8 +10,7 @@ Ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```sh
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/Aliza05/studentManagementSystemBackend.git
 ```
 
 ### 2. Create and Activate a Virtual Environment
